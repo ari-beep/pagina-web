@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende HTML y CSS</title>
+</head>
+
+<body>
+<h1>
+    Aprende HTML y CSS - Curso Desde Cero
+</h1>
+    <h2>
+       <img src="https://www.freecodecamp.org/espanol/news/content/images/2023/10/profile-picture-1.png" width="50">
+        Estefania Cassingena Navone
+    </h2>
+    <img src="https://www.freecodecamp.org/espanol/news/content/images/size/w2000/2021/10/thumbnail-final-1.png" width="700" >
+
+    <p>
+        ¡Hola! Si deseas dar tus primeros pasos por el interesante <br>
+        mundo del desarrollo web, lo primero que deberías hacer es <br>
+        aprender HTML y CSS porque ambos son esenciales para <br>
+        crear una página web.
+    </p>
+    <p>
+        En este artículo encontrarás una breve introducción a los <br>
+        fundamentos de ambos lenguajes y luego encontrarás <ins> nuestro curso <br>
+        gratuito de 5+ horas sobre HTML y CSS en YouTube</ins>, el cual abarca <br>
+        más contenido y ejemplos prácticos.
+    </p>
+    <p>
+       <strong> ¡Comencemos! ✨</strong>
+    </p>
+    <h2>
+        🔹 HTML y CSS: Descripción y Uso
+    </h2>
+    Veamos el propósito de HTML y CSS:
+    <ul>
+        <li>
+            HTML es un lenguaje de marcado esencial para el <br>
+            desarrollo web porque nos permite definir la estructura <br>
+            de la página web, el contenido que se va a mostrar en el <br>
+            navegador. Sus siglas significan "HyperText Markup Language" <br>
+            en inglés (Lenguaje de Marcado de <br>
+            Hipertexto).
+        </li>
+        <p>
+        <li>
+            CSS es un lenguaje basado en reglas que nos permite <br>
+            asignar estilos a los elementos de nuestra página <br>
+             Sus siglas significan "Cascading Style Sheets" en inglés <br>
+            (Hojas de Estilo en Cascada).
+        </li>
+         </p>
+    </ul>
+    <p>
+        HTML trabaja en conjunto con CSS para crear las páginas web <br>
+        que usamos todos los días en el navegador. Algunas páginas web <br>
+        interactivas también usan JavaScript.
+    </p>
+    <p>
+        <strong>💡 Dato:</strong> Los archivos HTML tienen extensión .html y los <br>
+        archivos CSS tienen extensión .css. Piensa que en este <br>
+        momento estás viendo una página web que fue creada <br>
+        con HTML y CSS.
+    </p>
+    <h2>
+        🔸 Herramientas de Desarrollo de Chrome
+    </h2>
+    Algo muy interesante es que puedes ver la estructura de los <br>
+    archivos HTML y CSS de cualquier página web en Google <br>
+    Chrome haciendo clic derecho en la página y seleccionando <br>
+    "inspect".
+    <p>
+        Esto abrirá las Herramientas de Desarrollo de Google Chrome, <br>
+        donde podrás ver dos secciones principales, las cuales se <br>
+        presentan en la siguiente imagen:
+        <ul>
+            <li>
+                La parte superior contiene el código HTML. Se muestra <br>
+                en naranja en la siguiente imagen.
+            </li>
+            <li>
+                La parte inferior contiene los estilos aplicados con CSS <br>
+                al elemento seleccionado. Se muestra en verde en la <br>
+                siguiente imagen.
+            </li>
+        </ul>
+        <img src="https://www.freecodecamp.org/espanol/news/content/images/size/w1600/2021/10/chrome-dev-tools.png" 
+          height="300"
+           alt="">
+           <p>
+            Herramientas de Desarrollo de Chrome
+           </p>
+    </p>
+    <h2>
+    🔹 Introducción a HTML
+     </h2>
+     Ahora comencemos a ver los fundamentos de HTML. Aquí <br>
+     tenemos un ejemplo de una página web muy sencilla:
+    <pre>
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Mi página web&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;Mi pagina web&lt;/h1&gt;
+                &lt;p&lt;Estoy aprendiendo desarrollo web.&lt;p&lt;
+            &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p>
+        Ejemplo
+    </p>
+    <P>
+        <strong>💡 Tip:</strong> En HTML, la indentación (el espacio o sangría <br>
+        que colocamos antes de las líneas) es muy importante porque nos <br>
+        permite distinguir visualmente la estructura de la página web <br>
+        en el archivo. Aunque no es obligatoria, se recomienda usarla para <br>
+        comprender más fácilmente la estructura de la página. Se <br>
+        recomienda dejar 2 espacios por cada nivel de indentación.
+    </P>
+    <p>
+        Veamos los componentes principales que puedes usar en HTML:
+    </p>
+    <h2>
+        Elementos
+    </h2>
+    Un archivo HTML está conformado por elementos HTML. Estos <br>
+    elementos son componentes individuales en HTML que nos <br>
+    permiten crear la estructura de la página.
+    <p>
+        Este es un ejemplo de un elemento:
+    </p>
+    <pre>
+        &lt;h1&gt;Mi página web&lt;h1&gt;
+    </pre>
+<p>
+    <strong>💡 Tip:</strong>  Ciertos elementos pueden contener a otros elementos <br>
+    y crear estructuras más complejas. Al anidar los elementos uno <br>
+    dentro del otro, se debería indentar los elementos internos para <br>
+    reflejar esta estructura, como en nuestro ejemplo anterior.
+</p>
+<h2>
+    Etiquetas
+</h2>
+Cada elemento tiene una etiqueta asociada. Podemos crear un <br>
+elemento usando su etiqueta en nuestro archivo HTML.
+<p>
+    Estos son ejemplos de etiquetas usadas comúnmente:
+    <ul>
+        <li>
+            <pre>
+            &lt;html&gt;  todo el contenido de la página debe estar entre estas etiquetas.
+            </pre>
+        </li>
+        <li>
+            <pre>
+            &lt;head&gt; - este elemento contiene el título de la página <br>
+            que puedes ver en la pestaña de tu navegador y además <br>
+            contiene metadatos.
+            </pre>
+        </li>
+        <li>
+            <pre>
+            &lt;body&gt; -este elemento contiene todos los elementos <br>
+            visibles de la página web. Toda la estructura de la página <br>
+            debe estar entre estas etiquetas.
+            </pre>
+        </li>
+        <li>
+            <pre>
+            &lt;h1&gt; &lt;h2&gt;  &lt;h3&gt; &lt;h4&gt; &lt;h5&gt; &lt;h6&gt;-  estos elementos <br>
+            representan encabezados o títulos de mayor a menor <br>
+            importancia o nivel en la página web.  
+            </pre>
+        </li>
+
+        <li>
+            <pre>
+            &lt;p&gt; - un párrafo.
+            </pre>
+        </li>
+        <li>
+            <pre>
+            &lt;a&gt; - un enlace a otra página web o a secciones internas <br>
+            de tu página web.
+            </pre>
+        </li>
+        <li>
+            <pre>
+            &lt;strong&gt; - esta etiqueta te permite resaltar texto <br>
+            importante. Usualmente se muestra en negrita.
+            </pre>
+        </li>
+        <li>
+            <pre>
+            &lt;em&gt; - esta etiqueta te permite resaltar texto <br>
+            importante. Usualmente se muestra en cursiva.
+            </pre>
+        </li>
+        <li>
+            <pre>
+            &lt;form&gt; - este elemento te permite crear un formulario.
+            </pre>
+        </li>
+        <li>
+            <pre>
+            &lt;hr&gt; -  una línea horizontal que puede ser usada para <br>
+            separar párrafos o secciones de tu página web.
+            </pre>
+        </li>
+        <li>
+            <pre>
+            &lt;input&gt; - un elemento que te permite crear formularios <br>
+            porque puede tomar texto o actuar como un botón de <br>
+            radio o una casilla de verificación.
+            </pre>
+        </li>
+        <li>
+            <pre>
+            &lt;footer&gt; - un pie de página.
+            </pre>
+        </li>
+    </ul>
+</p>
+<p>
+    La mayoría de los elementos en HTML tienen una etiqueta de <br>
+    apertura y una etiqueta de cierre. Entre ambas etiquetas se <br>
+    escribe el contenido del elemento.
+</p>
+<p>
+    En el ejemplo anterior estamos creando un elemento de tipo <br>
+    &lt;h1&gt; (un encabezado de nivel 1):
+</p>
+<pre>
+&lt;h1&gt;Mi página web&lt;/h1&gt;
+</pre>
+<p>
+    Este elemento tiene una etiqueta de apertura y una etiqueta de <br>
+    cierre para rodear su contenido. 
+    <ul>
+        <li>
+            La etiqueta de apertura es &lt;h1&gt;
+        </li>
+        <li>
+            La etiqueta de cierre es &lt;/h1&gt;
+        </li>
+    </ul>
+</p>
+<p>
+    Como puedes ver en el siguiente diagrama:
+    <img 
+    height="300"
+    src="https://www.freecodecamp.org/espanol/news/content/images/2021/10/image-29.png" alt="">
+</p>
+<p>
+   <strong>💡 Dato:</strong>  la diferencia entre la etiqueta de apertura y la etiqueta <br>
+    de cierre es que la etiqueta de cierre tiene una barra antes del <br>
+    tipo de elemento.
+</p>
+<p>
+    Sin embargo, algunos elementos no necesitan una etiqueta de <br>
+    cierre porque no actúan como contenedores. Entre ellos se <br>
+    incluyen las imágenes: 
+    <pre>
+    &lt;img src="freeCodeCamp.jpg"&gt;
+    </pre>
+</p>
+<h2>
+    Atributos
+</h2>
+<p>
+    Los elementos HTML pueden tener atributos que nos permiten <br>
+    describir información adicional sobre el elemento. Estos <br>
+    incluyen <pre>class, id, style, lang, src, y href.</pre>    
+</p>
+<p>
+    Aquí tenemos un ejemplo de un elemento HTML con el atributo class:
+</p> 
+    <pre>
+        &lt;h1 class="titulo-principal"&gt;Mi Página Web&lt;/h1&gt;
+    </pre>
+    <ul>
+       <p>
+        <li>
+            Los atributos deben ser escritos en la etiqueta de <br>
+            apertura, antes del paréntesis angular de cierre. 
+        </li>
+         </p>
+         <p>
+        <li>
+            Los atributos están separados por un signo igual = de su <br>
+            valor. A la izquierda escribimos el nombre del atributo y a <br>
+            la derecha especificamos su valor. En este ejemplo, el <br>
+            valor es titulo-principal.
+        </li>
+         </p>
+         <p>
+        <li>
+            El valor del atributo debe estar rodeado por comillas.
+        </li>
+    </p>
+    </ul>
+<p>
+    <strong>💡 Dato:</strong> Cada tipo de elemento tiene un conjunto específico de <br>
+    atributos que podemos asignar y cada atributo tiene <br>
+    un conjunto de valores posibles.
+</p>
+<h2>
+    Idioma 
+</h2>
+<p>
+    Puedes especificar el idioma principal de la página web o de <br>
+    cualquier elemento en la estructura con el atributo lang y el <br>
+    código correspondiente del idioma:
+</p>
+<p>
+    Por ejemplo, este elemento te llevaría a la página web de <br>
+    freeCodeCamp en Español:  
+</p>
+<pre>
+    &lt;a href="https://www.freecodecamp.org/espanol/"&gt;freeCodeCamp&lt;/a&gt;
+</pre>
+<ul>
+    <li>
+        El atributo href nos permite especificar el destino del <br>
+        enlace. Su valor es el destino del enlace.
+    </li>
+    <li>
+        El texto que escribimos entre las etiquetas &lt;a&gt;&lt;/a&gt; es el <br>
+        texto que verá el usuario. En este caso, el texto es freeCodeCamp.
+    </li>
+</ul>
+<p>
+    También puedes llevar a los usuarios a otra página de tu sitio <br>
+    web:
+    <pre>
+        &lt;a href="#titulo-principal"&gt;Ir al Título Principal&lt;/a&gt;
+    </pre>
+</p>
+<p>
+    Y si asignas el atributo id a un elemento HTML, puedes crear <br>
+    un enlace para llevar al usuario hasta ese elemento:
+    <pre>
+        &lt;a href="#titulo-principal"&gt;Ir al Título Principal&lt;/a&gt;
+    </pre>
+</p>
+<p>
+    En este ejemplo, el enlace llevaría al usuario hasta el elemento <br>
+    con id titulo-principal.
+</p>
+<p>
+    <strong>💡 Dato: </strong>el elemento <a> es distinto al elemento <link>. El <br>
+        elemento <link> se usa para especificar la relación entre el <br>
+        archivo HTML y una fuente externa como un archivo CSS.
+</p>
+<h2>
+    Comentarios
+</h2>
+<p>
+    HTML también nos permite escribir comentarios. Los <br>
+    comentarios son muy útiles para agregar notas que nosotros y <br>
+    otros desarrolladores pueden leer al ver el archivo. Son muy <br>
+    útiles para explicar y entender la estructura de la página y saber <br>
+    qué tareas están pendientes:
+    <pre>
+        &lt;!-- Cambiar la estructura de esta parte --&gt;
+    </pre>
+</p>
+<p>
+    <strong>💡 Dato:</strong> Los comentarios no son parte del código ni del <br>
+    resultado final. Son útiles para los desarrolladores que trabajan <br>
+    con el archivo HTML.
+</p>
+<h2>
+    Listas
+</h2>
+<p>
+    En HTML puedes crear listas ordenadas y listas no ordenadas &lt;br&gt;
+    con las etiquetas &lt;ol&gt; y &lt;ul&gt;, respectivamente.
+</p>
+<p>
+    Aquí tenemos un ejemplo de cada tipo de lista:
+    <pre>
+    &lt;!-- Lista Ordenada --&gt;
+      &lt;ol>
+      &lt;li>Azul&lt;/li&gt;
+      &lt;li>Verde&lt;/li&gt;
+      &lt;li>Negro&lt;/li&gt;
+      &lt;/ol&gt;
+    </pre>
+    <img 
+    height="200"
+    src="https://www.freecodecamp.org/espanol/news/content/images/2021/10/image-32.png" alt="">
+</p>
+
+</body>
+
+</html>
